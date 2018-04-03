@@ -43,7 +43,7 @@ async function generator(configFilename, pageDefinitionFile, distPath){
         const content = await _pageRenderer(tpl, css, pconf);
 
         // generate filename
-        const filename = 'HTTP' + p + '.html';
+        const filename = '' + p + '.shtml';
 
         // write content to file
         await _fs.writeFile(_path.join(distPath, filename), content, 'utf8');

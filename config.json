@@ -1,7 +1,7 @@
 {
     //  Output Filename Scheme - eg. HTTP500.html
-    "scheme": "HTTP%d.html",
+    "scheme": "%d.html",
 
     // Footer content (HTML Allowed)
-    "footer": "Tech Contact <a href=\"mailto:info@example.org\">info@example.org</a>"
+    "footer": "Get some <a href=\"https://www.kajoom.ca/contact/\">support</a> <!--#echo var=\"HTTP_HOST\" -->"
 }
