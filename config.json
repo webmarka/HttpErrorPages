@@ -3,5 +3,5 @@
     "scheme": "%d.html",
 
     // Footer content (HTML Allowed)
-    "footer": "Get some <a href=\"https://www.kajoom.ca/contact/\">support</a> <!--#echo var=\"HTTP_HOST\" -->"
+    "footer": "<a href=\"http://<!--#echo var=\"HTTP_HOST\" -->\"><!--#echo var=\"HTTP_HOST\" --></a> "
 }

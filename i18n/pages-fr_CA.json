@@ -1,0 +1,69 @@
+{        
+    // STANDARD ERROR CODES
+    // =======================================================
+
+    "400": {
+        "title": "Mauvaise requête",
+        "message": "Le serveur ne peut pas traiter la demande en raison de quelque chose qui est perçu comme une erreur du client." 
+    },
+    "401": {
+        "title": "Non autorisé",
+        "message": "La ressource demandée nécessite une authentification."
+    },
+
+    "403": {
+        "title": "Accès refusé",
+        "message": "Vous n'êtes pas autorisé à accéder à la ressource demandée." 
+    },
+    
+    // http 404 not found
+    "404": {
+        "title": "Ressource introuvable",
+        "message": "La ressource demandée n'a pas pu être trouvée mais pourrait être à nouveau disponible dans le futur." 
+    },
+    
+    // internal server error
+    "500": {
+        "title": "Service Web actuellement indisponible",
+        "message": "Une condition inattendue a été rencontrée." 
+    },
+    
+    // unknown http method
+    "501": {
+        "title": "Non implémenté",
+        "message": "Le serveur Web ne peut pas reconnaître la méthode de requête."
+    },
+    
+    // http proxy forward error
+    "502": {
+        "title": "Service Web actuellement indisponible",
+        "message": "Le service web est actuellement indisponible."
+    },
+    
+    // webserver service error
+    "503": {
+        "title": "Service Web actuellement indisponible",
+        "message": "Le service web est actuellement indisponible."
+    },
+    
+    // CUSTOM ERROR CODES
+    // =======================================================
+
+    // webserver origin error
+    "520": {
+        "title": "Erreur d'origine - Hôte inconnu",
+        "message": "Le nom d'hôte demandé n'est pas routé. Utilisez uniquement des noms d'hôtes pour accéder aux ressources."
+    },
+    
+    // webserver down error
+    "521": {
+        "title": "Service Web actuellement indisponible",
+        "message": "Le service web est actuellement indisponible."
+    },
+    
+    // maintenance
+    "533": {
+        "title": "Maintenance planifiée",
+        "message": "Le service web est actuellement indisponible pour cause de maintenance planifiée."                
+    }
+}
