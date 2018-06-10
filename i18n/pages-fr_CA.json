@@ -22,6 +22,12 @@
         "message": "La ressource demandée n'a pas pu être trouvée mais pourrait être à nouveau disponible dans le futur." 
     },
     
+    // http 406 not acceptable
+    "406": {
+        "title": "Requête interdite",
+        "message": "La requête demandée n'a pas pu être éxécutée." 
+    },
+    
     // internal server error
     "500": {
         "title": "Service Web actuellement indisponible",
